@@ -1,6 +1,6 @@
 source,target,protocol,status,latency_ms,note
 ESP32 physical board,PHP telemetry,HTTP POST,NOT RUN,,No physical ESP32 supplied
-Python synthetic labels,PHP inventory,HTTP JSON POST,PENDING,,Run detector.py --simulate --once
-HTTP test client,PHP latest,HTTP GET,PENDING,,Local software integration test
-Flutter dashboard,PHP latest,HTTP GET,PENDING,,Local browser build
+Python synthetic labels,PHP inventory,HTTP JSON POST,PASS,,detector.py --simulate --once returned HTTP 201 and inventory id 4
+HTTP test client,PHP latest,HTTP GET,PASS,,JSON and form inserts followed by persisted latest values verified
+Flutter dashboard,PHP latest,HTTP GET,PASS,,Built web application displayed 28.5 C and 65 percent humidity; synthetic fruit counts 2/1/3
 YOLO physical fruit camera,Flutter dashboard,End to end,NOT RUN,,No camera dataset or custom best.pt supplied
