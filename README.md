@@ -4,7 +4,7 @@
 
 This repository includes hardware/, ai_engine/, backend/, mobile_app/ and docs/ as specified in the manual.
 
-Repository: https://github.com/worachaitalyien/Smart-Agriculture-QA (private). Instructor/teammate access must be granted before they can open the URL. Real teammate review is still pending.
+Repository: https://github.com/worachaitalyien/Smart-Agriculture-QA (public; no login needed to read). Real teammate review is still pending.
 
 ## What is real and what is simulated
 - PHP REST API, MySQL persistence, Flutter dashboard and MQTT transport run as real software.
