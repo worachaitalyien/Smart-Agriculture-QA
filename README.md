@@ -28,3 +28,7 @@ The runnable simulation uses no heavy packages: `python ai_engine/detector.py --
 Create branches such as feature/hardware, feature/php-api, feature/flutter-ui. Push to your group's actual GitHub repository, open PRs, request at least one real teammate's review and merge only after that review. The included PR template supports this workflow. A local Git commit is not a published GitHub submission.
 
 See docs/answers.md and docs/experiment_results.csv. Record real measurements separately from simulation observations.
+
+## Submission evidence
+
+[Thai A4 lab report and manual result tables](https://github.com/worachaitalyien/Smart-Agriculture-QA/blob/feature/integration-validation/docs/submission.pdf) are on the validation branch. [PR #1](https://github.com/worachaitalyien/Smart-Agriculture-QA/pull/1) contains measured software results and is awaiting a real teammate review. Physical hardware, camera inference and trained fruit weights remain untested/unavailable as stated in the report.
