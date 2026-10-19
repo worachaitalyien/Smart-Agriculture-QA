@@ -1,0 +1,8 @@
+# Replace path with your labelled dataset; no training data or best.pt is supplied.
+path: ./fruit_dataset
+train: images/train
+val: images/val
+names:
+  0: apple
+  1: mango
+  2: orange

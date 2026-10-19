@@ -1,0 +1,6 @@
+source,target,protocol,status,latency_ms,note
+ESP32 physical board,PHP telemetry,HTTP POST,NOT RUN,,No physical ESP32 supplied
+Python synthetic labels,PHP inventory,HTTP JSON POST,PENDING,,Run detector.py --simulate --once
+HTTP test client,PHP latest,HTTP GET,PENDING,,Local software integration test
+Flutter dashboard,PHP latest,HTTP GET,PENDING,,Local browser build
+YOLO physical fruit camera,Flutter dashboard,End to end,NOT RUN,,No camera dataset or custom best.pt supplied
