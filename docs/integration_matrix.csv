@@ -1,0 +1,5 @@
+source,target,protocol,result,latency_ms,scope
+ESP32 physical,PHP telemetry,POST urlencoded,NOT RUN,,No board supplied
+Python synthetic counts,PHP inventory,POST multipart/form-data,PASS,18.82,Software only; no inference
+Postman Newman,PHP latest,GET JSON,PASS,37,Localhost
+Flutter web,PHP latest,GET JSON,PASS,,Displayed values; latency not measured

@@ -1,0 +1,119 @@
+{
+  "requests": {
+    "total": 15,
+    "pending": 0,
+    "failed": 0
+  },
+  "assertions": {
+    "total": 30,
+    "pending": 0,
+    "failed": 0
+  },
+  "executions": [
+    {
+      "name": "Courses list",
+      "method": "GET",
+      "http": 200,
+      "latency_ms": 122,
+      "body": "[{\"course_code\":\"01204271\",\"course_name\":\"Introduction to Computer Engineering\",\"credits\":3}]"
+    },
+    {
+      "name": "Create DEMO course",
+      "method": "POST",
+      "http": 201,
+      "latency_ms": 20,
+      "body": "{\"status\":\"ok\",\"message\":\"Insert Data Complete\",\"course_code\":\"POSTMAN-DEMO\"}"
+    },
+    {
+      "name": "Update DEMO course",
+      "method": "PUT",
+      "http": 200,
+      "latency_ms": 29,
+      "body": "{\"status\":\"ok\",\"message\":\"Update Data Complete\"}"
+    },
+    {
+      "name": "Student list",
+      "method": "GET",
+      "http": 200,
+      "latency_ms": 39,
+      "body": "[{\"student_code\":\"6840202946\",\"student_name\":\"วรชัย ตาลเยี่ยน\",\"gender\":\"M\"},{\"student_code\":\"6840202946-8\",\"student_name\":\"วรชัย ตาลเยี่ยน (แก้ไข)\",\"gender\":\"M\"}]"
+    },
+    {
+      "name": "Create DEMO student",
+      "method": "POST",
+      "http": 201,
+      "latency_ms": 26,
+      "body": "{\"status\":\"ok\",\"message\":\"Insert Data Complete\",\"student_code\":\"PM-6840202946\"}"
+    },
+    {
+      "name": "Update DEMO student",
+      "method": "PUT",
+      "http": 200,
+      "latency_ms": 34,
+      "body": "{\"status\":\"ok\",\"message\":\"Update Data Complete\"}"
+    },
+    {
+      "name": "Create DEMO result",
+      "method": "POST",
+      "http": 201,
+      "latency_ms": 85,
+      "body": "{\"status\":\"ok\",\"message\":\"Insert Data Complete\",\"id\":\"4\"}"
+    },
+    {
+      "name": "Exam results list",
+      "method": "GET",
+      "http": 200,
+      "latency_ms": 13,
+      "body": "[{\"id\":4,\"student_code\":\"PM-6840202946\",\"course_code\":\"POSTMAN-DEMO\",\"score\":\"85.50\",\"exam_date\":\"2026-10-19\"}]"
+    },
+    {
+      "name": "Update DEMO result",
+      "method": "PUT",
+      "http": 200,
+      "latency_ms": 17,
+      "body": "{\"status\":\"ok\",\"message\":\"Update Data Complete\"}"
+    },
+    {
+      "name": "Delete DEMO result",
+      "method": "DELETE",
+      "http": 200,
+      "latency_ms": 10,
+      "body": "{\"status\":\"ok\",\"message\":\"Delete Data Complete\"}"
+    },
+    {
+      "name": "Delete DEMO course",
+      "method": "DELETE",
+      "http": 200,
+      "latency_ms": 36,
+      "body": "{\"status\":\"ok\",\"message\":\"Delete Data Complete\"}"
+    },
+    {
+      "name": "Delete DEMO student",
+      "method": "DELETE",
+      "http": 200,
+      "latency_ms": 41,
+      "body": "{\"status\":\"ok\",\"message\":\"Delete Data Complete\"}"
+    },
+    {
+      "name": "Synthetic telemetry",
+      "method": "POST",
+      "http": 201,
+      "latency_ms": 138,
+      "body": "{\"status\":\"success\",\"message\":\"Telemetry data saved\",\"id\":\"4\"}"
+    },
+    {
+      "name": "Synthetic inventory",
+      "method": "POST",
+      "http": 201,
+      "latency_ms": 82,
+      "body": "{\"status\":\"success\",\"message\":\"Inventory data saved\",\"id\":\"5\"}"
+    },
+    {
+      "name": "Latest farm data",
+      "method": "GET",
+      "http": 200,
+      "latency_ms": 37,
+      "body": "{\"status\":\"success\",\"telemetry\":{\"id\":4,\"temperature\":28.5,\"humidity\":65,\"created_at\":\"2026-10-19 15:40:59\"},\"inventory\":{\"id\":5,\"apple_count\":2,\"mango_count\":1,\"orange_count\":3,\"created_at\":\"2026-10-19 15:40:59\"}}"
+    }
+  ]
+}

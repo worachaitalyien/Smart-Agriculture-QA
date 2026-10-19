@@ -1,0 +1,3 @@
+case,temperature,actual_fruits,AI_detection,Flutter_values,update_seconds,status
+normal,,,,,,NOT RUN: no board/camera/trained fruit model
+occluded,,,,,,NOT RUN: no board/camera/trained fruit model
