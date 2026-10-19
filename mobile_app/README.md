@@ -1,17 +1,15 @@
-# smart_agriculture_qa
+# Smart Agriculture Flutter Dashboard
 
-A new Flutter project.
+6840202946 วรชัย ตาลเยี่ยน
 
-## Getting Started
+Reads telemetry and fruit inventory from PHP/MySQL every three seconds. Handles empty data, failed requests and widget disposal without overlapping polls. The companion software demo uses explicitly synthetic producers.
 
-This project is a starting point for a Flutter application.
+Tested with Flutter 3.47.7 / Dart 3.13.5. Start the backend using the repository README, then run here:
 
-A few resources to get you started if this is your first Flutter project:
+```text
+flutter pub get
+flutter analyze
+flutter run -d chrome --dart-define=API_URL=http://127.0.0.1:8078/api/get_latest.php
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Android and web project files are included. On a physical Android device use a reachable LAN API URL. The combined CPE.zip includes a compiled web build and local launcher, so Flutter is only needed to rebuild or develop the app.
